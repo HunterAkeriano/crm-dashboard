@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+	head
+		include components/global/head
+
+	body
+		include components/home/profile-sidebar
+
+		main.wrapper
+			.container
+				include components/home/hello-user
+
+				include components/home/base-table
+
+		script(src="./js/main.min.js")

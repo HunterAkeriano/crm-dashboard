@@ -1,0 +1,99 @@
+.base-table
+	.base-table__information
+		.base-table__information-text
+			h3.base-table__information-title All base-table
+			.base-table__information-filter Active Members
+
+		.base-table__information-search
+			form.base-table__information-search
+				.input-wrapper
+					input(placeholder="Search").input
+
+	.base-table__wrapper
+		table.base-table__table
+			thead.base-table__table-head
+				tr.base-table__table-row
+					td.base-table__table-col Customer Name
+					td.base-table__table-col Company
+					td.base-table__table-col Phone Number
+					td.base-table__table-col Email
+					td.base-table__table-col Country
+					td.base-table__table-col Status
+
+			tbody.base-table__table-body
+				tr.base-table__table-row
+					td.base-table__table-col Jane Cooper
+					td.base-table__table-col Microsoft
+					td.base-table__table-col: a(href="tel:+2255550118") (225) 555-0118
+					td.base-table__table-col: a(href="mailto:jane@microsoft.com") jane@microsoft.com
+					td.base-table__table-col United States
+					td.base-table__table-col: span.base-table__table-col_status Active
+
+				tr.base-table__table-row
+					td.base-table__table-col Floyd Miles
+					td.base-table__table-col Yahoo
+					td.base-table__table-col: a(href="tel:+2055550100") (205) 555-0100
+					td.base-table__table-col: a(href="mailto:floyd@yahoo.com") floyd@yahoo.com
+					td.base-table__table-col Kiribati
+					td.base-table__table-col: span.base-table__table-col_status.inactive Inactive
+
+				tr.base-table__table-row
+					td.base-table__table-col Ronald Richards
+					td.base-table__table-col Adobe
+					td.base-table__table-col: a(href="tel:+3025550107") (302) 555-0107
+					td.base-table__table-col: a(href="ronald@adobe.com") ronald@adobe.com
+					td.base-table__table-col Israel
+					td.base-table__table-col: span.base-table__table-col_status.inactive Inactive
+
+				tr.base-table__table-row
+					td.base-table__table-col Marvin McKinney
+					td.base-table__table-col Tesla
+					td.base-table__table-col: a(href="tel:+2525550126") (252) 555-0126
+					td.base-table__table-col: a(href="mailto:marvin@tesla.com") marvin@tesla.com
+					td.base-table__table-col Iran
+					td.base-table__table-col: span.base-table__table-col_status Active
+
+				tr.base-table__table-row
+					td.base-table__table-col Jerome Bell
+					td.base-table__table-col Google
+					td.base-table__table-col: a(href="tel:+6295550129") (629) 555-0129
+					td.base-table__table-col: a(href="mailto:jerome@google.com") jerome@google.com
+					td.base-table__table-col Réunion
+					td.base-table__table-col: span.base-table__table-col_status Active
+
+				tr.base-table__table-row
+					td.base-table__table-col Kathryn Murphy
+					td.base-table__table-col Microsoft
+					td.base-table__table-col: a(href="tel:+4065550120") (406) 555-0120
+					td.base-table__table-col: a(href="mailto:kathryn@microsoft.com") kathryn@microsoft.com
+					td.base-table__table-col Curaçao
+					td.base-table__table-col: span.base-table__table-col_status Active
+
+				tr.base-table__table-row
+					td.base-table__table-col Jacob Jones
+					td.base-table__table-col Yahoo
+					td.base-table__table-col: a(href="tel:+2085550112") (208) 555-0112
+					td.base-table__table-col: a(href="mailto:jacob@yahoo.com") jacob@yahoo.com
+					td.base-table__table-col Brazil
+					td.base-table__table-col: span.base-table__table-col_status Active
+
+				tr.base-table__table-row
+					td.base-table__table-col Kristin Watson
+					td.base-table__table-col Facebook
+					td.base-table__table-col: a(href="tel:+2055550100") (704) 555-0127
+					td.base-table__table-col: a(href="mailto:kristin@facebook.com") kristin@facebook.com
+					td.base-table__table-col Åland Islands
+					td.base-table__table-col: span.base-table__table-col_status.inactive Inactive
+
+	.base-table__bottom
+		.base-table__total Showing data 1 to 8 of 256k entries
+
+		.base-table__pagination
+			button.base-table__pagination-button <
+			button.base-table__pagination-button.active 1
+			button.base-table__pagination-button 2
+			button.base-table__pagination-button 3
+			button.base-table__pagination-button 4
+			span.base-table__pagination-space ...
+			button.base-table__pagination-button 40
+			button.base-table__pagination-button >
